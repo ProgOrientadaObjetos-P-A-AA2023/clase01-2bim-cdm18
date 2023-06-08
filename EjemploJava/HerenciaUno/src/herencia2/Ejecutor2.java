@@ -31,6 +31,9 @@ public class Ejecutor2 {
         int asignaturas = entrada.nextInt();
         System.out.println("Ingrese costo asignatura");
         double costoAsignatura = entrada.nextDouble();
+        
+        System.out.println("");
+        
         EstudianteDistancia estudiante = new EstudianteDistancia();
         
         estudiante.establecerNombresEstudiante(nombres);
